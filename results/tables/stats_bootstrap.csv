@@ -1,0 +1,23 @@
+family,statistic,estimate,ci_low,ci_high
+Feature models,"False-alarm rate, clean",0.014,0.006,0.025
+Feature models,"False-alarm rate, 20% block",0.585,0.547,0.62
+Feature models,"Normal set coverage, conformal, 20% block",0.286,0.252,0.323
+Feature models,"Normal set coverage, gap-matched, 20% block",0.946,0.933,0.958
+Feature models,"Anomalies missed and automated, clean",0.038,0.014,0.066
+Feature models,"Anomalies missed and automated, 20% block",0.011,0.002,0.021
+Feature models,"Anomalies missed and automated, 20% block, evidence visible",0.012,0.002,0.025
+Neural models,"False-alarm rate, clean",0.017,0.01,0.026
+Neural models,"False-alarm rate, 20% block",0.019,0.012,0.025
+Neural models,"Normal set coverage, conformal, 20% block",0.946,0.933,0.959
+Neural models,"Normal set coverage, gap-matched, 20% block",0.954,0.943,0.966
+Neural models,"Anomalies missed and automated, clean",0.04,0.016,0.068
+Neural models,"Anomalies missed and automated, 20% block",0.106,0.07,0.148
+Neural models,"Anomalies missed and automated, 20% block, evidence visible",0.045,0.019,0.078
+Feature models,"DIFF: False-alarm rate, 20% block minus False-alarm rate, clean",0.571,0.534,0.607
+Feature models,"DIFF: Normal set coverage, gap-matched, 20% block minus Normal set coverage, conformal, 20% block",0.66,0.625,0.691
+Feature models,"DIFF: Anomalies missed and automated, 20% block minus Anomalies missed and automated, clean",-0.028,-0.055,-0.004
+Feature models,"DIFF: Anomalies missed and automated, 20% block, evidence visible minus Anomalies missed and automated, clean",-0.027,-0.054,-0.005
+Neural models,"DIFF: False-alarm rate, 20% block minus False-alarm rate, clean",0.001,-0.003,0.006
+Neural models,"DIFF: Normal set coverage, gap-matched, 20% block minus Normal set coverage, conformal, 20% block",0.008,0.006,0.011
+Neural models,"DIFF: Anomalies missed and automated, 20% block minus Anomalies missed and automated, clean",0.066,0.039,0.097
+Neural models,"DIFF: Anomalies missed and automated, 20% block, evidence visible minus Anomalies missed and automated, clean",0.007,-0.002,0.019

@@ -1,0 +1,9 @@
+,,cal_n,cal_n,cal_n,cov_normal,cov_normal,cov_normal,cov_anomaly,cov_anomaly,cov_anomaly
+,,mean,std,<lambda_0>,mean,std,<lambda_0>,mean,std,<lambda_0>
+test,cal_frac,,,,,,,,,
+block / Conformal-GM,0.25,80.0,0.0,80.0,0.951,0.026,0.901,0.945,0.047,0.867
+block / Conformal-GM,0.5,160.0,0.0,160.0,0.949,0.017,0.918,0.949,0.034,0.885
+block / Conformal-GM,1.0,319.0,0.0,319.0,0.949,0.007,0.94,0.94,0.025,0.894
+clean / Conformal,0.25,80.0,0.0,80.0,0.961,0.021,0.923,1.0,0.0,1.0
+clean / Conformal,0.5,160.0,0.0,160.0,0.959,0.013,0.937,0.972,0.029,0.92
+clean / Conformal,1.0,319.0,0.0,319.0,0.96,0.009,0.948,0.958,0.024,0.922

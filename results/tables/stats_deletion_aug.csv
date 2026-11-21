@@ -1,0 +1,9 @@
+criterion,model,group,n,recall_clean,recall_block20,drop
+combined,LogReg-Aug,anomaly region kept,87.667,0.538,0.56,-0.022
+combined,LogReg-Aug,anomaly region removed,25.333,0.535,0.298,0.237
+combined,RandomForest-Aug,anomaly region kept,87.667,0.858,0.762,0.096
+combined,RandomForest-Aug,anomaly region removed,25.333,0.836,0.306,0.529
+combined,SensorAwareNet-Aug,anomaly region kept,87.667,0.883,0.866,0.017
+combined,SensorAwareNet-Aug,anomaly region removed,25.333,0.899,0.494,0.405
+combined,XGBoost-Aug,anomaly region kept,87.667,0.868,0.793,0.075
+combined,XGBoost-Aug,anomaly region removed,25.333,0.877,0.363,0.514

@@ -1,0 +1,5 @@
+family,statistic,estimate,ci_low,ci_high
+"Feature models (RF, XGBoost)","FPR increase, 20% block vs clean",0.016,0.01,0.022
+"Feature models (RF, XGBoost)","Normal coverage, gap-matched minus standard conformal, 20% block",0.328,0.321,0.334
+1D-CNN,"FPR increase, 20% block vs clean",0.054,0.05,0.058
+1D-CNN,"Normal coverage, gap-matched minus standard conformal, 20% block",0.172,0.165,0.179

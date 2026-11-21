@@ -1,0 +1,4 @@
+train,normal,anomaly,total
+test,416,113,529
+train,1273,321,1594
+all,1689,434,2123
